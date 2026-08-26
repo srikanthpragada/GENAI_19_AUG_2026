@@ -1,5 +1,6 @@
 # Create key using https://platform.openai.com/api-keys
 # Set environment variable OPENAI_API_KEY to OpenAI key.
+# https://developers.openai.com/api/docs
 
 
 from openai import OpenAI
