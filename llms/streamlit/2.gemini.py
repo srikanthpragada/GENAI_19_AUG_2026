@@ -4,7 +4,7 @@ import streamlit as st
 from langchain.chat_models import init_chat_model
 from langchain.messages import HumanMessage, SystemMessage
 
-model = init_chat_model("gemini-3.1-flash-lite", model_provider="google_genai")
+model = init_chat_model("gemini-2.5-flash", model_provider="google_genai")
 
 st.title("Get Answers from Gemini!")
 

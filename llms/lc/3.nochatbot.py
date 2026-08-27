@@ -2,11 +2,12 @@
 
 from langchain.chat_models import init_chat_model
 
-model = init_chat_model("gemini-3.1-flash-lite", model_provider="google_genai")
+model = init_chat_model("gemini-3.1-flash-lite", 
+                         model_provider="google_genai")
 
 while True:
     prompt = input("Enter prompt [q to quit] :")
-    if prompt.lower() == 'q':
+    if prompt.strip().lower() == 'q':
         break 
     response = model.invoke(prompt)
     print(response.content)

@@ -9,7 +9,7 @@ messages = [SystemMessage(content="Give one line answer")]
 
 while True:
     prompt = input("Enter prompt [q to quit, c to create new chat] :")
-    if prompt.lower() == 'q':
+    if prompt.strip().lower() == 'q':
         break
     # You can create HumanMessage or a dict with role user
     # messages.append( {"role" : "user", "content" : prompt})

@@ -1,7 +1,7 @@
 from langchain.chat_models import init_chat_model
 import streamlit as st
 
-model = init_chat_model("gemini-3.1-flash-lite",
+model = init_chat_model("gemini-2.5-flash",
                          model_provider="google_genai")
 
 system_prompt = {"role" : "system", "content" : "Give short answers"}
