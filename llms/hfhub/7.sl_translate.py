@@ -1,4 +1,4 @@
-# streamlit run sl_translate.py
+# streamlit run 7.sl_translate.py
 
 import streamlit as st
 from huggingface_hub import InferenceClient

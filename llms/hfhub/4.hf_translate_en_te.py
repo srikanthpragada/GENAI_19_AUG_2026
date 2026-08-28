@@ -8,8 +8,8 @@ client = InferenceClient(model=model_id,
                          provider="hf-inference", 
                          token= keys.HUGGINGFACE_KEY)
 
-english_text = "What did you play yesterday?"
-
+#english_text = "What did you play yesterday?"
+english_text = "Where will you go tomorrow?"
 response = client.translation(english_text, 
                              src_lang="en_XX",   # Source language (English)
                              tgt_lang="te_IN" )  # Target language (Telugu))

@@ -17,7 +17,7 @@ result = asr(audio_path, return_timestamps = True)
 # Print the transcription
 #print("Transcription:", result["text"] )
 
-prompt  = f"Summarize the following in 3 sentenses: \n {result['text']}"
+prompt = f"Summarize the following in 3 sentenses: \n {result['text']}"
 
 # Summarise that speech 
 summarize = pipeline("text-generation", 
