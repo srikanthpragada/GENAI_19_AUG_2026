@@ -17,7 +17,7 @@ docs = [
 
 vectorstore = FAISS.from_documents(docs, embeddings_model)
 
-query = "What uses neural networks?"
+query = "Neural networks"
 results = vectorstore.similarity_search(query, k=2)
 
 
