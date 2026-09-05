@@ -7,8 +7,6 @@ from langchain.chat_models import init_chat_model
 import streamlit as st 
 import os 
 
-
-
 # Embeddings model and LLM 
 embeddings_model = GoogleGenerativeAIEmbeddings(
     model="models/gemini-embedding-001")
