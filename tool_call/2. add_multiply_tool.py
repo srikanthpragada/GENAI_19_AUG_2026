@@ -4,9 +4,8 @@ from langchain_core.messages import HumanMessage, SystemMessage, ToolMessage
 
 llm = init_chat_model("gemini-2.5-flash", model_provider="google_genai")
 
-
 @tool()
-def add(a: int, b: int) -> int:
+def add(a: int | float, b: int | float) -> int | float:
     """Adds a and b."""
     return a + b
 
@@ -21,7 +20,8 @@ llm_with_tools = llm.bind_tools(tools)
 
 #query = "Add 10 and 20 and then multiply it with 40"
 #query = "Add 10 and 20, multiply 20 and 40"
-query = "What is the capital of Spain"
+query = "Add 10.5 and 20.3"
+#query = "What is the capital of Spain"
 
 
 messages = [
