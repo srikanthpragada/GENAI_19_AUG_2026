@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Aarav Sharma",
+        "email": "aarav.sharma@example.com",
+        "mobile": "+91-9876543210"
+    },
+    {
+        "name": "Priya Reddy",
+        "email": "priya.reddy@example.com",
+        "mobile": "+91-9876543211"
+    },
+    {
+        "name": "Rahul Mehta",
+        "email": "rahul.mehta@example.com",
+        "mobile": "+91-9876543212"
+    },
+    {
+        "name": "Sneha Reddy",
+        "email": "sneha.iyer@example.com",
+        "mobile": "+91-9876543213"
+    },
+    {
+        "name": "Vikram Rao",
+        "email": "vikram.rao@example.com",
+        "mobile": "+91-9876543214"
+    },
+    {
+        "name": "Ananya Gupta",
+        "email": "ananya.gupta@example.com",
+        "mobile": "+91-9876543215"
+    },
+    {
+        "name": "Kiran Kumar",
+        "email": "kiran.kumar@example.com",
+        "mobile": "+91-9876543216"
+    },
+    {
+        "name": "Meera Nair",
+        "email": "meera.nair@example.com",
+        "mobile": "+91-9876543217"
+    },
+    {
+        "name": "Rohit Verma",
+        "email": "rohit.verma@example.com",
+        "mobile": "+91-9876543218"
+    },
+    {
+        "name": "Divya Patel",
+        "email": "divya.patel@example.com",
+        "mobile": "+91-9876543219"
+    }
+]
