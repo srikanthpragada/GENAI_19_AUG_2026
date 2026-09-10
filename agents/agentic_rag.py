@@ -51,8 +51,8 @@ tools = [search_product, search_customer]
 
 agent = create_agent(model, tools, system_prompt='Give minimum details')
 
-human_message = HumanMessage("Show me price of all mouse products")
-#human_message = HumanMessage("Give me email address of customer Rohit")
+#human_message = HumanMessage("Show me price of all mouse products")
+human_message = HumanMessage("Give me email address of customer Rohit")
 # Invoke agent
 response = agent.invoke({"messages": [human_message]})
 
